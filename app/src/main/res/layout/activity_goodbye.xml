@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/goodbye_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/archivo"
+        android:text="see you later bro"
+        android:textColor="#653C00"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/goodbye_1"
+        android:layout_alignLeft="@+id/goodbye_1"
+        android:layout_marginBottom="-70dp"
+        android:fontFamily="@font/archivo"
+        android:text="i will miss you"
+        android:textColor="#653C00"
+        android:textSize="40dp" />
+
+</RelativeLayout>
